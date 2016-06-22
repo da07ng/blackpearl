@@ -1,0 +1,22 @@
+.archive-list {
+  padding: 15px 0;
+  position: relative;
+  overflow: hidden;
+
+  .month-title {
+    margin: 0;
+    font-weight: 700;
+  }
+
+  .archive-item {
+    padding: 5px 0;
+
+    a {
+      color: rgba(0,0,0,.6);
+
+      &:hover {
+        color: rgba(0,0,0,.8);
+      }
+    }
+  }
+}
